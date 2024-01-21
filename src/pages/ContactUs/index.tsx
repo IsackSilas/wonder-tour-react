@@ -1,8 +1,21 @@
-import styles from './ContactUs.module.css'
+import Footer from "../../components/Footer"
+import Header from "../../components/Header"
+import Navbar from "../../components/Navbar"
 
 function ContactUs() {
   return (
-    <div>ContactUs</div>
+    <>
+      <header>
+        <Header />
+        <Navbar />
+      </header>
+      <main>
+        <h1>Contact Us</h1>
+      </main>
+      <footer>
+        <Footer />
+      </footer>
+    </>
   )
 }
 

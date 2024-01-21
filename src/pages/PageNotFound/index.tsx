@@ -1,11 +1,8 @@
-import Explore from "../../components/Explore"
+import Footer from "../../components/Footer"
 import Header from "../../components/Header"
 import Navbar from "../../components/Navbar"
-import CardContainer from "../../components/CardContainer"
-import Footer from "../../components/Footer"
-import "./Home.module.css"
 
-function Home() {
+function PageNotFound() {
   return (
     <>
       <header>
@@ -13,8 +10,7 @@ function Home() {
         <Navbar />
       </header>
       <main>
-        <Explore />
-        <CardContainer />
+        <h1>404: Page Not Found</h1>
       </main>
       <footer>
         <Footer />
@@ -23,4 +19,4 @@ function Home() {
   )
 }
 
-export default Home
+export default PageNotFound

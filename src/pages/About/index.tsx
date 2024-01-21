@@ -1,8 +1,21 @@
-import styles from './About.module.css'
+import Footer from "../../components/Footer"
+import Header from "../../components/Header"
+import Navbar from "../../components/Navbar"
 
 function About() {
   return (
-    <div>About Us</div>
+    <>
+      <header>
+        <Header />
+        <Navbar />
+      </header>
+      <main>
+        <h1>About Us</h1>
+      </main>
+      <footer>
+        <Footer />
+      </footer>
+    </>
   )
 }
 

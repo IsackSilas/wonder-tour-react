@@ -1,8 +1,21 @@
-import styles from './Typography.module.css'
+import Footer from "../../components/Footer"
+import Header from "../../components/Header"
+import Navbar from "../../components/Navbar"
 
 function Typography() {
   return (
-    <div>Typography</div>
+    <>
+      <header>
+        <Header />
+        <Navbar />
+      </header>
+      <main>
+        <h1>Typography</h1>
+      </main>
+      <footer>
+        <Footer />
+      </footer>
+    </>
   )
 }
 
