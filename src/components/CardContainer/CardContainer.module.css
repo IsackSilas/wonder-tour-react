@@ -1,0 +1,26 @@
+.cardcontainer section {
+ display: flex;
+ flex-wrap: wrap;
+}
+
+.cardcontainer img {
+ transform: translateY(-40px);
+ max-width: 100%;
+ margin-right: 10px;
+}
+
+.cards {
+ position: relative;
+}
+
+.cardcontainer span {
+ position: absolute;
+ z-index: 100;
+ top: 80%;
+ left: 60%;
+ transform: translate(-50%, -50%);
+ font-size: 2rem;
+ color: white;
+ width: 90%;
+ font-weight: bolder;
+}

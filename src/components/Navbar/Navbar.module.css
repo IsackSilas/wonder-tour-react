@@ -1,0 +1,42 @@
+.navbar {
+  background-color: #162e44;
+  padding-block: 20px;
+  color: #fff;
+}
+
+.navbar section {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 100%;
+ }
+ 
+ .navbar ul {
+   display: flex;
+ }
+
+.menu a {
+  color: #fff;
+  padding: 20.5px 15px;
+  font-size: 1.2rem;
+  transition: background .3s;
+}
+
+.menu a:hover {
+  background-color: #304559;
+}
+
+.menu li {
+  padding-inline: 5px;
+}
+
+.social a{
+ color: #fff;
+ font-size: 1.1rem;
+ padding-inline: 10px;
+ transition: color .3s;
+}
+
+.social a:hover {
+ color: #57bd8C;
+}

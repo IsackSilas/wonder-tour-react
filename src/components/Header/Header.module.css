@@ -1,0 +1,37 @@
+.header {
+ padding-block: 20px;
+}
+
+.header section{
+ display: flex;
+ justify-content: space-between;
+ align-items: center;
+ width: 100%;
+}
+
+.header img {
+ width: 250px;
+}
+
+.header span {
+ margin-right: 50px;
+}
+
+.header svg {
+ margin-right: 20px;
+ color: #01B3A7;
+}
+
+.header button {
+ padding: 15px 25px;
+ outline: 2px solid #01B3A7;
+ font-size: 1rem;
+ transition: background 0.3s, outline 0.3s, color 0.3s;
+}
+
+.header button:hover {
+ background-color: #57bd8C;
+ outline-color: #57bd8C;
+ color: #fff;
+ cursor: pointer;
+}
