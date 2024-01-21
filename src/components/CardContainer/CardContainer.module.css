@@ -1,6 +1,12 @@
 .cardcontainer section {
  display: flex;
  flex-wrap: wrap;
+ justify-self: center;
+}
+
+.teste {
+ display: flex;
+ flex-wrap: wrap;
 }
 
 .cardcontainer img {
@@ -23,4 +29,15 @@
  color: white;
  width: 90%;
  font-weight: bolder;
+}
+
+@media (max-width: 1237px) {
+ .teste {
+  justify-content: center;
+ }
+
+ .cardcontainer img {
+  margin-block: 30px;
+  transform: translateY(0);
+ }
 }

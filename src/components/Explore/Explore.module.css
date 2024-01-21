@@ -35,3 +35,14 @@
  background-color: #57bd8C;
  outline-color: #57bd8C;
 }
+
+@media (max-width: 605px) {
+ .explore {
+  text-align: center;
+  background-position: left;
+  height: 100vh;
+ }
+ .explore h1 {
+  font-size: 100%;
+ }
+}

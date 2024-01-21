@@ -3,8 +3,9 @@ import styles from "./Header.module.css"
 import logo from "../../assets/images/logo.png"
 import Button from "../Button"
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome"
-import { faClock } from "@fortawesome/free-regular-svg-icons"
+import { faClock } from "@fortawesome/free-solid-svg-icons"
 import { faPhone } from "@fortawesome/free-solid-svg-icons"
+
 
 function Header() {
   return (
@@ -14,7 +15,7 @@ function Header() {
           <div>
             <img src={logo} />
           </div>
-          <div>
+          <div className={styles.headermenu}>
             <FontAwesomeIcon icon={faClock} />
             <span>09:00AM — 05:00PM</span>
             <FontAwesomeIcon icon={faPhone} />

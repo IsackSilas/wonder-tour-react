@@ -8,17 +8,19 @@ import Container from "../Container"
 function CardContainer() {
   return (
     <section className={styles.cardcontainer}>
-      <Container>
-        <div className={styles.cards}>
-         <Card img={ballon} text="Balloon Flights" />
-        </div>
-        <div className={styles.cards}>
-         <Card img={mountain} text="Mountain Holiday" />
-        </div>
-        <div className={styles.cards}>
-         <Card img={beach} text="Beach Holidays" />
-        </div>
-      </Container>
+        <Container>
+          <div className={styles.teste}>
+            <div className={styles.cards}>
+             <Card img={ballon} text="Balloon Flights" />
+            </div>
+            <div className={styles.cards}>
+             <Card img={mountain} text="Mountain Holiday" />
+            </div>
+            <div className={styles.cards}>
+             <Card img={beach} text="Beach Holidays" />
+            </div>
+          </div>
+        </Container>
     </section>
   )
 }

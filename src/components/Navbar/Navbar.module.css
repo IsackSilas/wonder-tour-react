@@ -40,3 +40,9 @@
 .social a:hover {
  color: #57bd8C;
 }
+
+@media (max-width: 1030px) {
+  .navbar {
+    display: none;
+  }
+}
