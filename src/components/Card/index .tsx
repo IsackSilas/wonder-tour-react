@@ -5,10 +5,10 @@ type props = {
 
 function Card({ img, text }: props) {
   return (
-   <div>
-    <img src={`${img}`} />
-    <span>{text}</span>
-   </div>
+    <div>
+      <img src={`${img}`} />
+      <span>{text}</span>
+    </div>
   )
 }
 

@@ -1,13 +1,9 @@
 type props = {
- text: React.ReactNode
+  text: React.ReactNode
 }
 
-function Button({text}: props) {
- return(
-  <button>
-   {text}
-  </button>
- )
+function Button({ text }: props) {
+  return <button>{text}</button>
 }
 
 export default Button

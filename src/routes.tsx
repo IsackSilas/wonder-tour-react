@@ -1,10 +1,9 @@
-import { BrowserRouter, Route, Routes } from "react-router-dom"
-import Home from "./pages/Home"
-import About from "./pages/About"
-import Typography from "./pages/Typography"
-import ContactUs from "./pages/ContactUs"
-import PageNotFound from "./pages/PageNotFound"
-
+import { BrowserRouter, Route, Routes } from 'react-router-dom'
+import Home from './pages/Home'
+import About from './pages/About'
+import Typography from './pages/Typography'
+import ContactUs from './pages/ContactUs'
+import PageNotFound from './pages/PageNotFound'
 
 function AppRoutes() {
   return (

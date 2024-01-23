@@ -6,7 +6,7 @@ function Footer() {
       <div>
         <span>Wonder Tour Com React e TypeScript &copy; Silas Isack 2024</span>
       </div>
-     </section>
+    </section>
   )
 }
 

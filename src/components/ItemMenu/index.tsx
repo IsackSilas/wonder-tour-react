@@ -1,4 +1,4 @@
-import { Link } from "react-router-dom"
+import { Link } from 'react-router-dom'
 
 type props = {
   text: string
@@ -7,9 +7,9 @@ type props = {
 
 function ItemMenu({ text, link }: props) {
   return (
-   <li>
-    <Link to={link}>{text}</Link>
-   </li>
+    <li>
+      <Link to={link}>{text}</Link>
+    </li>
   )
 }
 

@@ -1,11 +1,10 @@
-import Container from "../Container"
-import styles from "./Header.module.css"
-import logo from "../../assets/images/logo.png"
-import Button from "../Button"
-import { FontAwesomeIcon } from "@fortawesome/react-fontawesome"
-import { faClock } from "@fortawesome/free-solid-svg-icons"
-import { faPhone } from "@fortawesome/free-solid-svg-icons"
-
+import Container from '../Container'
+import styles from './Header.module.css'
+import logo from '../../assets/images/logo.png'
+import Button from '../Button'
+import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
+import { faClock } from '@fortawesome/free-solid-svg-icons'
+import { faPhone } from '@fortawesome/free-solid-svg-icons'
 
 function Header() {
   return (

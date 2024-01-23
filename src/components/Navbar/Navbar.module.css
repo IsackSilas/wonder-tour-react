@@ -9,17 +9,17 @@
   justify-content: space-between;
   align-items: center;
   width: 100%;
- }
- 
- .navbar ul {
-   display: flex;
- }
+}
+
+.navbar ul {
+  display: flex;
+}
 
 .menu a {
   color: #fff;
   padding: 20.5px 15px;
   font-size: 1.2rem;
-  transition: background .3s;
+  transition: background 0.3s;
 }
 
 .menu a:hover {
@@ -30,15 +30,15 @@
   padding-inline: 5px;
 }
 
-.social a{
- color: #fff;
- font-size: 1.1rem;
- padding-inline: 10px;
- transition: color .3s;
+.social a {
+  color: #fff;
+  font-size: 1.1rem;
+  padding-inline: 10px;
+  transition: color 0.3s;
 }
 
 .social a:hover {
- color: #57bd8C;
+  color: #57bd8c;
 }
 
 @media (max-width: 1030px) {

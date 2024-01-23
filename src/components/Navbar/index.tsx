@@ -1,9 +1,8 @@
-import { socialMedias } from "../SocialMedias"
-import Container from "../Container"
-import ItemMenu from "../ItemMenu"
-import SocialMedias from "../SocialMedias"
-import styles from "./Navbar.module.css"
-
+import { socialMedias } from '../SocialMedias'
+import Container from '../Container'
+import ItemMenu from '../ItemMenu'
+import SocialMedias from '../SocialMedias'
+import styles from './Navbar.module.css'
 
 function Navbar() {
   return (
@@ -20,10 +19,10 @@ function Navbar() {
           </div>
           <div className={styles.social}>
             <ul>
-            <SocialMedias social={socialMedias[0]}/>
-            <SocialMedias social={socialMedias[1]}/>
-            <SocialMedias social={socialMedias[2]}/>
-            <SocialMedias social={socialMedias[3]}/>
+              <SocialMedias social={socialMedias[0]} />
+              <SocialMedias social={socialMedias[1]} />
+              <SocialMedias social={socialMedias[2]} />
+              <SocialMedias social={socialMedias[3]} />
             </ul>
           </div>
         </section>
